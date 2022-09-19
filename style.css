@@ -23,7 +23,7 @@ section{
 }
 
 .intro-container{
-	flex: 1;
+	/* flex: 1; */
 	color: white;
 	text-align: center;
 	align-items: center; 
@@ -71,6 +71,11 @@ section{
 
 .blue-box span{
     font-weight: 600;
+}
+
+.blue-box:hover{
+	filter: saturate(1.5);
+    transition: ease 0.3s;
 }
 
 .form {
@@ -156,6 +161,11 @@ section{
     letter-spacing: .08rem;
     box-shadow: hsl(154, 59%, 51%) 2px 2px;
     cursor: pointer;
+}
+
+button:hover{
+	filter: saturate(1.5);
+    transition: ease 0.3s;
 }
 
 .message{
