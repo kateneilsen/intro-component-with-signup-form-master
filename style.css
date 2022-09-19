@@ -75,21 +75,64 @@ form{
     font-weight: 600;
     box-shadow: 3px 8px hsla(0, 0%, 1%, 0.165);
 }
-.input-control{
-    margin-bottom: 20px;
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
 }
 
-input{
-    height: 3rem;
+.form-control input {
     border: 1px solid rgb(228, 225, 225);
-    border-radius: 5px;
-    padding: 6px 12px 6px 12px;
-    font-weight: 600;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	padding: 10px;
+	width: 100%;
 }
 
-input[type=text]{
-    width: 100%;
+.form-control input:focus {
+	outline: 0;
+	border-color: hsl(248, 32%, 49%);
 }
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
 
 button{
     width: 100%;
@@ -123,30 +166,8 @@ form p span{
     font-size: 1rem;
 }
 
-.input-control .error{
-    color: hsl(0, 100%, 74%);
-    font-weight:400;
-    font-size: .8rem;
-    font-style: italic;
-    text-align: right;
-}
-
-.input-control.error input{
-    border-color: hsl(0, 100%, 74%);
-
-}
-
-i{
-    position: absolute;
-    padding: 10px;
-}
 
 
-
-.failure-icon {
-    color: hsl(0, 100%, 74%);
-
-}
 
 footer{
     text-align: center;
