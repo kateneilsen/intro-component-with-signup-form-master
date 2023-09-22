@@ -40,7 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [https://github.com/kateneilsen/intro-component-with-signup-form-master](https://github.com/kateneilsen/intro-component-with-signup-form-master)
-- Live Site URL: [https://intro-component-with-signup-form-master-sand.vercel.app](https://intro-component-with-signup-form-master-sand.vercel.app)
+- Live Site URL: [https://intro-section-dropdown-zeta.vercel.app/](https://intro-section-dropdown-zeta.vercel.app/)
 
 ### Built with
 
